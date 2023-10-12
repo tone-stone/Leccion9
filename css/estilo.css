@@ -1,0 +1,21 @@
+div.conteiner{
+    position:absolute;
+    background-color: rgb(73, 72, 72);
+    padding: 10px;
+}
+.header{
+    background-color:skyblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    background-color:paleturquoise;
+    padding: 200px;
+    text-align: center;
+}
+.footer{
+    background-color:lightgray;
+    padding: 60px;
+    text-align: center;
+}
