@@ -1,21 +1,56 @@
-div.conteiner{
-    position:absolute;
-    background-color: rgb(73, 72, 72);
-    padding: 10px;
+body {
+    margin: 0;
+    font-family: 'roboto';
 }
-.header{
-    background-color:rgb(0, 34, 255);
+
+header {
+    background-color: rgb(100, 107, 152);
     text-align: center;
-    padding: 10px;
+    padding: 1em;
+    color: white; /* Añadido para mejorar la legibilidad del texto */
+}
+
+.container {
+    position: relative;
+    background-color: rgb(73, 72, 72);
+    padding: 1em;
 }
 
 .content {
-    background-color:rgb(0, 255, 255);
-    padding: 200px;
+    background-color: rgb(0, 255, 255);
+    padding: 10%;
     text-align: center;
 }
-.footer{
-    background-color:rgb(255, 5, 5);
-    padding: 60px;
+
+.image {
+    width: 200px;
+}
+
+.center {
+    /* Agregado para centrar el texto */
+    margin: 0 auto;
+}
+
+section {
+    /* Añadido para separar las secciones */
+    margin-top: 20px;
+}
+
+.row {
+    /* Agregado para separar las filas en la sección de noticias */
+    margin-bottom: 20px;
+}
+
+article {
+    /* Añadido para dar estilo al artículo de noticias */
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background-color: rgb(255, 5, 5);
+    padding: 5%;
     text-align: center;
+    color: white; /* Añadido para mejorar la legibilidad del texto */
 }
