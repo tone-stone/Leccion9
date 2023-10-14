@@ -5,23 +5,29 @@ body {
 
 header {
     background-color: rgb(100, 107, 152);
-    text-align: center;
     padding: 1em;
-    color: white; /* Añadido para mejorar la legibilidad del texto */
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Ajustado para espacio entre elementos */
+    align-items: center;
 }
+
+h1 {
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+}
+
 nav {
     display: flex;
-    justify-content: center;
 }
 
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 li {
-    display: inline-block;
     margin: 0 10px;
 }
 
@@ -48,22 +54,18 @@ a {
 }
 
 .center {
-    /* Agregado para centrar el texto */
     margin: 0 auto;
 }
 
 section {
-    /* Añadido para separar las secciones */
     margin-top: 20px;
 }
 
 .row {
-    /* Agregado para separar las filas en la sección de noticias */
     margin-bottom: 20px;
 }
 
 article {
-    /* Añadido para dar estilo al artículo de noticias */
     background-color: #eee;
     padding: 10px;
     border: 1px solid #ccc;
@@ -73,9 +75,8 @@ footer {
     background-color: rgb(1, 19, 69);
     padding: 5%;
     text-align: center;
-    color: white; /* Añadido para mejorar la legibilidad del texto */
+    color: white;
 }
-
 
 @media screen and (max-width: 600px) {
     nav {
