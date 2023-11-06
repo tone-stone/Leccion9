@@ -1,27 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" sizes="16x16 32x32 48x48" type="image/png" src="./assets/imagenes/tech.png" />
+    <link rel="stylesheet" href="/css/estilo.css" />
+    <title>Propiedad Display en CSS</title>
+    <!-- Agregamos una meta etiqueta de descripción -->
+    <meta name="description" content="Descripción de tu sitio web" />
 </head>
+
 <body>
 
     <header>
         <h1>Encabezado</h1>
         <nav>
-          <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="servicios.html">Servicios</a></li>
-              <li><a href="#">Acerca de</a></li>
-              <li><a href="#">Contacto</a></li>
-          </ul>
-      </nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="conteiner">
 
     </main>
-    
+
+    <section>
+
+        <div class="wrapper" id="wrapper">
+            <h1 class="title">DOM</h1>
+            <div>
+                <a href="#" class="link bold">Pimer Hijo</a>
+                <a href="#" class="link">Segundo Hijo</a>
+                <a href="#" class="link">Tercer Hijo</a>
+            </div>
+<div>
+    <a href="#" class="link">Tercer Hijo</a>
+</div>
+            
+        
+            <form>
+                <label for="telephone">Telefono</label>
+                <input type="number" id="telephone" name="telephone">
+            </form>
+        </div>
+
+    </section>
+
+    <section>
+        <h1>Catálogo de la Biblioteca</h1>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Título</th>
+        <th>Autor</th>
+        <th>Año de Publicación</th>
+      </tr>
+    </thead>
+    <tbody id="catalogo-body"></tbody>
+  </table>
+    </section>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
